@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: hsla(248, 90%, 8%, 0.996);
+    color: aliceblue;
+}
+
+.container{
+    width: 1200px;
+    margin:auto;
+}
+
+.row1{
+    display:flex;
+    flex-wrap: wrap;
+    border:solid rgb(179, 167, 167) 2px;
+    padding: 15px;
+}
+
+.box1{
+    width:40%;
+    margin: auto;
+}
+
+.box1 img{
+    width:100%
+}
+
+.row2{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.box2{
+    width: 30%;
+    margin: auto;
+    border:solid rgb(179, 167, 167) 2px;
+    padding: 15px;
+}
+
+.section2{
+    margin-top: 50px;
+}
